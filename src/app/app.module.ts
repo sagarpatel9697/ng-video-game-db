@@ -8,6 +8,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 
+import { NzLayoutModule } from 'ng-zorro-antd/layout';
+
 import { AppRoutingModule } from './app-routing.module';
 import { SharedModule } from './shared/shared.module';
 
@@ -22,8 +24,10 @@ import { AppSkeletonComponent } from './layout/app-skeleton/app-skeleton.compone
     AppRoutingModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
-    MatSidenavModule,
-    MatListModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatIconModule,
+    NzLayoutModule,
     SharedModule,
   ],
   providers: [],
